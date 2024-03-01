@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+The link for telegram bot [https://t.me/shweta888bot]( https://t.me/shweta888bot)
+
+This is a frontend for weatherapp frontend: [https://github.com/shwetaa94/telegrambot-frontend](https://github.com/shwetaa94/telegrambot-frontend) 
+bootstrapped with backened : [https://github.com/shwetaa94/telegrambot-backend](https://github.com/shwetaa94/telegrambot-backend).
+
+# Video
+
+https://github.com/shwetaa94/telegrambot-frontend/assets/110349627/c6be1be2-a7f8-4bf3-ad67-d14beb581a31
+
+
+This Telegram bot provides real-time weather updates for different regions. Users can subscribe to the service by clicking on the route `/subscribe` and then accessing weather information via `/info` command.
+
+The bot is built using NestJS and integrates with Google Sign-In for user authentication. Once signed in, users can access their dashboard to view the number of registered users.
 
 ## Getting Started
 
-First, run the development server:
+To get started with the Weather Update Telegram Bot, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+1. **Sign In with Google**: Visit the website and sign in with your Google account.
+2. **Dashboard**: Once signed in, you'll be directed to your dashboard where you can see the number of registered users.
+3. **Subscription**: Click on the `/subscribe` route to subscribe to weather updates.
+4. **Weather Information**: Use the `/info` command in Telegram to receive weather updates for your region.
+
+## Usage
+
+### Subscription
+To subscribe to weather updates:
+```
+/subscribe = for subscription
+```
+/info  = for latest weather info
+```
+/unsubscribe = for unsubscribe
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Development
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To contribute to the development of this bot, follow these steps:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Clone the repository: `git clone <repository_url>`
+2. Install dependencies: `npm install`
+3. Start the development server: `npm run start:dev`
+4. Make changes as required.
+5. Submit a pull request.
 
-## Learn More
+## Contributors
 
-To learn more about Next.js, take a look at the following resources:
+- [Shweta](https://github.com/shwetaa94)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
