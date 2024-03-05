@@ -1,5 +1,7 @@
 The link for telegram bot [https://t.me/shweta888bot]( https://t.me/shweta888bot)
 
+Deployed Link: [https://telegrambot-frontend-lgq57fkx5-shwetas-projects-9a50aa5f.vercel.app/](https://telegrambot-frontend-lgq57fkx5-shwetas-projects-9a50aa5f.vercel.app/)
+
 This is a frontend for weatherapp frontend: [https://github.com/shwetaa94/telegrambot-frontend](https://github.com/shwetaa94/telegrambot-frontend) 
 bootstrapped with backened : [https://github.com/shwetaa94/telegrambot-backend](https://github.com/shwetaa94/telegrambot-backend).
 
